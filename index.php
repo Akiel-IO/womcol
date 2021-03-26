@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:description" content="Isncríbete sé el primero en recibir el primer totalmente gratis solo conservando tu linea actual.">
     <title>WOM Colombia: ¡Llegamos a cambiar la Telefonía Móvil!</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="icon" href="https://1701336841.rsc.cdn77.org/_assets/img/iconfavicon.ico" type="image/x-icon">
@@ -80,7 +81,6 @@
                     <ul class="actions special">
                         <li>
                             <input name="register" type="submit" id="submit" value="Enviar"/>
-                            <a href="https://www.wom.co/thankupage.php"></a>
                         </li>
                     </ul>
                     <p style="text-align:justify;">
