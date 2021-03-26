@@ -79,7 +79,7 @@
                     </div>
                     <ul class="actions special">
                         <li>
-                            <input name="register" type="submit" id="submit" value="Enviar"/>
+                            <input name="register" type="submit" id="submit" value="Enviar" href="https://www.wom.co/thankupage.php"/>
                         </li>
                     </ul>
                     <p style="text-align:justify;">
