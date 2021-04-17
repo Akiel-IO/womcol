@@ -25,7 +25,7 @@
 <body>
     <section>
         <div class="logowom" align="center">
-          <img style="width:120px; padding-top:10px; padding-bottom:10px;" src="images/wom.png" width="100%" >
+          <img style="width:120px; padding-top:10px; padding-bottom:10px;" src="images/LogoAliado.png" width="100%" >
         </div>
     </section>
     <section>
