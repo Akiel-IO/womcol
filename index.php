@@ -25,7 +25,7 @@
 <body>
     <section>
         <div class="logowom" align="center">
-          <img style="width:500px; padding-top:10px; padding-bottom:10px;" src="images/LogoAliado.png" width="100%" >
+          <img style="width:250px; padding-top:10px; padding-bottom:10px;" src="images/LogoAliado.png" width="100%" >
         </div>
     </section>
     <section>
@@ -99,7 +99,6 @@
                     <p style="text-align:justify;">
                         Al diligenciar el formato y dar clic en “enviar”, autorizas de forma, previa, libre, voluntaria, expresa e informada a Punto Mayorista TechCol S.A.S., el tratamiento de sus datos personales con las finalidad de recibir noticias e Información sobre las marcas, productos, servicios y actividades promocionales de PTC de forma directa o a través de aliados o colaboradores.
                     </p>
-                    <img style="width:250px; padding-top:10px; padding-bottom:10px;" src="images/SPRK_default_preset_name_custom – 1.png" width="100%" >
             </form>
             <?php
             include("registrar.php");
