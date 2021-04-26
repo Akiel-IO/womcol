@@ -30,7 +30,7 @@
     </section>
     <section>
         <div class="contenedor">
-        <img src="images/banner-3.jpg" width="100%" >
+        <img src="images/planpospago.jpg" width="100%" >
             <div align="center">
                 <p style="color:#ffff;font-size:2rem;font-weight: 500">¡NOSOTROS TE LLAMAMOS!</p>
             </div>
