@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:description" content="Porta tu linea movil y recibe el primer mes gratis, inscribete.">
-    <meta property="og:image:secure_url" content="https://www.wom.co/images/wom_logo.png">
-    <meta property="og:image" itemprop="image" content="https://www.wom.co/images/wom_logo.png">
+    <meta property="og:image:secure_url" content="https://www.https://womcol.com//images/wom_logo.png">
+    <meta property="og:image" itemprop="image" content="https://www.https://womcol.com//images/wom_logo.png">
     <meta property="og:site_name" content="WOM Colombia: ¡Llegamos a cambiar la Telefonía Móvil!">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="300">
