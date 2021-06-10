@@ -2515,7 +2515,7 @@ elemStgv4OE3.style.display = 'none';
                     'jquery'
                 ], function ($) {
 
-                    $('a.stickyWhatsapp').attr('href', 'https://wa.me/573027770000');
+                    $('a.stickyWhatsapp').attr('href', 'https://wa.me/573125052776');
                     $('ul').find('li:has(ul)').children('a').removeAttr('href')
 
                     var pathArray = window.location.href;
@@ -2853,6 +2853,7 @@ elemStgv4OE3.style.display = 'none';
                                                                     alt="Whatsapp WOM" /></li>
                                                             <li><img src="../media/LogosRedes/fb.png"
                                                                     alt="Facebook WOM" /></li>
+                                                            <li><img src="/media/LogosRedes/messenger_1.png" alt="Messenger WOM"></li>
                                                         </ul>
                                                     </div>
                                                     <!-- COMPARTIR -->
@@ -2979,6 +2980,7 @@ elemStgv4OE3.style.display = 'none';
                                                                     alt="Facebook WOM" /></li>
                                                             <li><img src="../media/LogosRedes/instagram.png"
                                                                     alt="Instagram WOM" /></li>
+                                                            <li><img src="/media/LogosRedes/messenger_1.png" alt="Messenger WOM"></li>
                                                         </ul>
                                                     </div>
                                                     <!-- COMPARTIR -->
@@ -3105,6 +3107,7 @@ elemStgv4OE3.style.display = 'none';
                                                                     alt="Facebook WOM" /></li>
                                                             <li><img src="../media/LogosRedes/instagram.png"
                                                                     alt="Instagram WOM" /></li>
+                                                            <li><img src="/media/LogosRedes/messenger_1.png" alt="Messenger WOM"></li>
                                                         </ul>
                                                     </div>
                                                     <!-- COMPARTIR -->
@@ -3229,6 +3232,7 @@ elemStgv4OE3.style.display = 'none';
                                                                     alt="Whatsapp WOM" /></li>
                                                             <li><img src="../media/LogosRedes/fb.png"
                                                                     alt="Facebook WOM" /></li>
+                                                            <li><img src="/media/LogosRedes/messenger_1.png" alt="Messenger WOM"></li>
                                                         </ul>
                                                     </div>
                                                     <!-- COMPARTIR -->
@@ -3355,6 +3359,7 @@ elemStgv4OE3.style.display = 'none';
                                                                     alt="Facebook WOM" /></li>
                                                             <li><img src="../media/LogosRedes/instagram.png"
                                                                     alt="Instagram WOM" /></li>
+                                                            <li><img src="/media/LogosRedes/messenger_1.png" alt="Messenger WOM"></li>
                                                         </ul>
                                                     </div>
                                                     <!-- COMPARTIR -->
@@ -3481,6 +3486,7 @@ elemStgv4OE3.style.display = 'none';
                                                                     alt="Facebook WOM" /></li>
                                                             <li><img src="../media/LogosRedes/instagram.png"
                                                                     alt="Instagram WOM" /></li>
+                                                            <li><img src="/media/LogosRedes/messenger_1.png" alt="Messenger WOM"></li>
                                                         </ul>
                                                     </div>
                                                     <!-- COMPARTIR -->
