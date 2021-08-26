@@ -63,6 +63,23 @@
                         <input type="number" name="cel" id="tel" value=""  placeholder="Número Celular*" min="0 " max="3999999999" minlength="10" maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  autocomplete="off" required/>
                     </div>
                     <div class="field half">
+<<<<<<< HEAD
+=======
+                        <select name="operador" id="operador" required>
+                            <option value="" selected >Operador actual...*</option>
+                            <option value="Claro">Claro</option>
+                            <option value="Movistar">Movistar</option>
+                            <option value="Tigo">Tigo</option>
+                            <option value="Avantel">Avantel</option>
+                            <option value="Virgin Mobile">Virgin Mobile</option>
+                            <option value="ETB">ETB</option>
+                            <option value="Flash Mobile">Flash Mobile</option>
+                            <option value="Móvil Éxito">Móvil Éxito</option>
+                            <option value="Buenofón">Buenofón</option>
+                        </select>
+                    </div>
+                    <div class="field half">
+>>>>>>> parent of b841273 (temporal)
                         <select name="typePlan" id="typePlan" required>
                             <option value="" selected >Estoy interesado en...*</option>
                             <option value="Prepago">Prepago</option>
@@ -86,12 +103,11 @@
                         Al diligenciar el formato y dar clic en “enviar”, autorizas de forma, previa, libre, voluntaria, expresa e informada a Punto Mayorista TechCol S.A.S., el tratamiento de sus datos personales con las finalidad de recibir noticias e Información sobre las marcas, productos, servicios y actividades promocionales de PTC de forma directa o a través de aliados o colaboradores.
                     </p>
             </form>
-
             <?php
             include("registrar.php");
             ?>
-            
         </div>
+<<<<<<< HEAD
         <div class="mymap" id="mymap">
 
         </div>
@@ -126,6 +142,8 @@
 
                 }
             </script>
+=======
+>>>>>>> parent of b841273 (temporal)
     </section>
 </body>
 </html>
