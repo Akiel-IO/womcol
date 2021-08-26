@@ -63,8 +63,6 @@
                         <input type="number" name="cel" id="tel" value=""  placeholder="Número Celular*" min="0 " max="3999999999" minlength="10" maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  autocomplete="off" required/>
                     </div>
                     <div class="field half">
-<<<<<<< HEAD
-=======
                         <select name="operador" id="operador" required>
                             <option value="" selected >Operador actual...*</option>
                             <option value="Claro">Claro</option>
@@ -79,7 +77,6 @@
                         </select>
                     </div>
                     <div class="field half">
->>>>>>> parent of b841273 (temporal)
                         <select name="typePlan" id="typePlan" required>
                             <option value="" selected >Estoy interesado en...*</option>
                             <option value="Prepago">Prepago</option>
