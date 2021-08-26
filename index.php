@@ -103,6 +103,7 @@
             <?php
             include("registrar.php");
             ?>
+<<<<<<< HEAD
         </div>
 <<<<<<< HEAD
         <div class="mymap" id="mymap">
@@ -140,6 +141,9 @@
                 }
             </script>
 =======
+>>>>>>> parent of b841273 (temporal)
+=======
+        </div>
 >>>>>>> parent of b841273 (temporal)
     </section>
 </body>
