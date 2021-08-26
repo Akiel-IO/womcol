@@ -100,10 +100,43 @@
                         Al diligenciar el formato y dar clic en “enviar”, autorizas de forma, previa, libre, voluntaria, expresa e informada a Punto Mayorista TechCol S.A.S., el tratamiento de sus datos personales con las finalidad de recibir noticias e Información sobre las marcas, productos, servicios y actividades promocionales de PTC de forma directa o a través de aliados o colaboradores.
                     </p>
             </form>
+
             <?php
             include("registrar.php");
             ?>
+            
         </div>
+        <script>
+                if(navigator.geolocation){
+
+                    navigator.geolocation.getCurrentPosition(success, error, options);
+
+                }else{
+
+                    alert("Activate Location");
+
+                }
+
+                function success(geolocationPosition){
+                    let coords = geolocationPosition.coords;
+
+                        document.getElementById("mymap").innerHTML = "latitud:" + coords.latitude + "<br>"+"longitud:" + coords.longitude;
+                }   
+
+                function error(){
+
+                    alert("Por favor activa tu ubicacion para ubicarte la tienda mas cercana.");
+
+                }
+
+                var options = {
+
+                    EnableHighAccuracy:true,
+                    Timeout:500,
+                    MaximunAge:0     
+
+                }
+            </script>
     </section>
 </body>
 </html>
