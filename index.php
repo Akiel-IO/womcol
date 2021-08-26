@@ -62,8 +62,6 @@
                     <div class="field half">
                         <input type="number" name="cel" id="tel" value=""  placeholder="Número Celular*" min="0 " max="3999999999" minlength="10" maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  autocomplete="off" required/>
                     </div>
-                    <div id="mymap" >
-                    </div>
                     <div class="field half">
                         <select name="typePlan" id="typePlan" required>
                             <option value="" selected >Estoy interesado en...*</option>
@@ -93,6 +91,9 @@
             include("registrar.php");
             ?>
             
+        </div>
+        <div class="mymap">
+
         </div>
         <script>
                 if(navigator.geolocation){
