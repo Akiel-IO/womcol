@@ -10,7 +10,7 @@ if(isset($_POST['register'])){
         $doc = trim($_POST['doc']);
         $email = trim($_POST['email']);
         $cel = trim($_POST['cel']);
-        $operador = trim($_POST['mymap']);
+        $mymap = trim($_POST['mymap']);
         $typePlan = trim($_POST['typePlan']);
         $tengoActual = trim($_POST['tengoActual']);
         $fechareg = date("d/m/y");
