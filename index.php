@@ -63,7 +63,6 @@
                         <input type="number" name="cel" id="tel" value=""  placeholder="Número Celular*" min="0 " max="3999999999" minlength="10" maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  autocomplete="off" required/>
                     </div>
                     <div class="field half" id="mymap" >
-                        <input type="text" id="mymap" name="mymap">
                     </div>
                     <div class="field half">
                         <select name="typePlan" id="typePlan" required>
