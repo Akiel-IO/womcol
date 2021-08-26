@@ -3,7 +3,7 @@
 include("con_db.php");
 
 if(isset($_POST['register'])){
-    if(strlen($_POST['name']) >= 1 && strlen($_POST['lastname']) >= 1 && strlen($_POST['typeDoc']) >= 1 && strlen($_POST['doc']) >= 1 && strlen($_POST['email']) >= 1 && strlen($_POST['cel']) >= 1 && strlen($_POST['mymap']) >= 1 && strlen($_POST['typePlan']) >= 1 && strlen($_POST['tengoActual']) >= 1){
+    if(strlen($_POST['name']) >= 1 && strlen($_POST['lastname']) >= 1 && strlen($_POST['typeDoc']) >= 1 && strlen($_POST['doc']) >= 1 && strlen($_POST['email']) >= 1 && strlen($_POST['cel']) >= 1 && strlen($_POST['operador']) >= 1 && strlen($_POST['typePlan']) >= 1 && strlen($_POST['tengoActual']) >= 1){
         $name = trim($_POST['name']);
         $lastname = trim($_POST['lastname']);
         $typeDoc = trim($_POST['typeDoc']);
