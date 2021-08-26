@@ -14,7 +14,7 @@ if(isset($_POST['register'])){
         $typePlan = trim($_POST['typePlan']);
         $tengoActual = trim($_POST['tengoActual']);
         $fechareg = date("d/m/y");
-        $consulta = "INSERT INTO registros(nombres, apellidos, tipo_documento, numero_documento, email, celular, operador_actual, interes, sv_actual, fecha_registro) VALUES ('$name','$lastname','$typeDoc','$doc','$email','$cel','$mymap','$typePlan','$tengoActual','$fechareg')";
+        $consulta = "INSERT INTO registros(nombres, apellidos, tipo_documento, numero_documento, email, celular, operador_actual, interes, sv_actual, fecha_registro) VALUES ('$name','$lastname','$typeDoc','$doc','$email','$cel','$operador','$typePlan','$tengoActual','$fechareg')";
         $resultado = mysqli_query($conexion,$consulta);
         if ($resultado){
             ?>
