@@ -109,7 +109,7 @@
                 function success(geolocationPosition){
                     let coords = geolocationPosition.coords;
 
-                        document.getElementById("mymap").innerHTML = "latitud:" + coords.latitude + <br> + "longitud:" + coords.longitude;
+                        document.getElementById("mymap").innerHTML = "latitud:" + coords.latitude + "<br>" + "longitud:" + coords.longitude;
                 }   
 
                 function error(){
