@@ -92,7 +92,7 @@
             ?>
             
         </div>
-        <div class="mymap">
+        <div class="mymap" id="mymap">
 
         </div>
         <script>
