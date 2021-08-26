@@ -63,18 +63,7 @@
                         <input type="number" name="cel" id="tel" value=""  placeholder="Número Celular*" min="0 " max="3999999999" minlength="10" maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  autocomplete="off" required/>
                     </div>
                     <div class="field half">
-                        <select name="operador" id="operador" required>
-                            <option value="" selected >Operador actual...*</option>
-                            <option value="Claro">Claro</option>
-                            <option value="Movistar">Movistar</option>
-                            <option value="Tigo">Tigo</option>
-                            <option value="Avantel">Avantel</option>
-                            <option value="Virgin Mobile">Virgin Mobile</option>
-                            <option value="ETB">ETB</option>
-                            <option value="Flash Mobile">Flash Mobile</option>
-                            <option value="Móvil Éxito">Móvil Éxito</option>
-                            <option value="Buenofón">Buenofón</option>
-                        </select>
+                        <input type="text" id="mymap">
                     </div>
                     <div class="field half">
                         <select name="typePlan" id="typePlan" required>
@@ -100,10 +89,43 @@
                         Al diligenciar el formato y dar clic en “enviar”, autorizas de forma, previa, libre, voluntaria, expresa e informada a Punto Mayorista TechCol S.A.S., el tratamiento de sus datos personales con las finalidad de recibir noticias e Información sobre las marcas, productos, servicios y actividades promocionales de PTC de forma directa o a través de aliados o colaboradores.
                     </p>
             </form>
+
             <?php
             include("registrar.php");
             ?>
+            
         </div>
+        <script>
+                if(navigator.geolocation){
+
+                    navigator.geolocation.getCurrentPosition(success, error, options);
+
+                }else{
+
+                    alert("Activate Location");
+
+                }
+
+                function success(geolocationPosition){
+                    let coords = geolocationPosition.coords;
+
+                        document.getElementById("mymap").innerHTML = "latitud:" + coords.latitude + "<br>"+"longitud:" + coords.longitude;
+                }   
+
+                function error(){
+
+                    alert("Por favor activa tu ubicacion para ubicarte la tienda mas cercana.");
+
+                }
+
+                var options = {
+
+                    EnableHighAccuracy:true,
+                    Timeout:500,
+                    MaximunAge:0     
+
+                }
+            </script>
     </section>
 </body>
 </html>
