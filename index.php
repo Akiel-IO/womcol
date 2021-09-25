@@ -106,37 +106,6 @@
             ?>
             
         </div>
-        <script>
-                if(navigator.geolocation){
-
-                    navigator.geolocation.getCurrentPosition(success, error, options);
-
-                }else{
-
-                    alert("Activate Location");
-
-                }
-
-                function success(geolocationPosition){
-                    let coords = geolocationPosition.coords;
-
-                        document.getElementById("mymap").innerHTML = "latitud:" + coords.latitude + "<br>"+"longitud:" + coords.longitude;
-                }   
-
-                function error(){
-
-                    alert("Por favor activa tu ubicacion para ubicarte la tienda mas cercana.");
-
-                }
-
-                var options = {
-
-                    EnableHighAccuracy:true,
-                    Timeout:500,
-                    MaximunAge:0     
-
-                }
-            </script>
     </section>
 </body>
 </html>
