@@ -33,7 +33,7 @@ if(isset($_POST['register'])){
 
     $curl = curl_init();
     curl_setopt_array($curl, array(
-    CURLOPT_URL =>'https://200.91.222.198/ipdialbox/api_campaing.php?token=7b69645f6469737472697d2d3230323131313039313632303131&action=insert_json&type_campaing=predictive&campaing=4547',
+    CURLOPT_URL =>'https://190.84.119.167/ipdialbox/api_campaing.php?token=7b69645f6469737472697d2d3230323131313039313632303131&action=insert_json&type_campaing=predictive&campaing=4547',
     CURLOPT_RETURNTRANSFER => true ,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,
@@ -41,7 +41,7 @@ if(isset($_POST['register'])){
     CURLOPT_FOLLOWLOCATION => true ,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => 'POST',
-    CURLOPT_POSTFIELDS => '[ { "nombre_cliente": "name", "apellido_cliente": "lastname", "tipo_doc": "typeDoc", "id_cliente": "doc", "edad": "", "sexo": "", "pais": "", "departamento": "", "ciudad": "", "zona": "", "direccion": "", "opt1": "operador", "opt2": "typePlan", "opt3": "tengoActual", "opt4": "", "opt5": "", "opt6": "", "opt7": "", "opt8": "", "opt9": "", "opt10": "", "opt11": "", "opt12": "", "tel1": "cel", "tel2": "", "tel3": "", "tel4": "", "tel5": "", "tel6": "", "tel7": "", "tel8": "", "tel9": "", "tel10": "", "tel_extra": "", "email": "email", "rellamada": "", "rellamada_tel": "", "rellamada_status": "" } ]' ,
+    CURLOPT_POSTFIELDS => '[ { "nombre_cliente": "$name", "apellido_cliente": "$lastname", "tipo_doc": "$typeDoc", "id_cliente": "$doc", "edad": "", "sexo": "", "pais": "", "departamento": "", "ciudad": "", "zona": "", "direccion": "", "opt1": "operador", "opt2": "$typePlan", "opt3": "tengoActual", "opt4": "", "opt5": "", "opt6": "", "opt7": "", "opt8": "", "opt9": "", "opt10": "", "opt11": "", "opt12": "", "tel1": "$cel", "tel2": "", "tel3": "", "tel4": "", "tel5": "", "tel6": "", "tel7": "", "tel8": "", "tel9": "", "tel10": "", "tel_extra": "", "email": "$email", "rellamada": "", "rellamada_tel": "", "rellamada_status": "" } ]' ,
     CURLOPT_HTTPHEADER => array(
     'Content-Type: application/json'
     )));
