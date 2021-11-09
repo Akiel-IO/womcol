@@ -33,7 +33,7 @@ if(isset($_POST['register'])){
 
     $curl = curl_init();
     curl_setopt_array($curl, array(
-    CURLOPT_URL =>'https://{ip_ipdialbox}/ipdialbox/api_campaing.php?token={token}&action=insert_json&type_campaing=preview&campaing=87',
+    CURLOPT_URL =>'https://200.91.222.198/ipdialbox/api_campaing.php?token=7b69645f6469737472697d2d3230323131313039313632303131&action=insert_json&type_campaing=predictive&campaing=4547',
     CURLOPT_RETURNTRANSFER => true ,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,
