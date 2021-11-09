@@ -103,6 +103,20 @@
 
             <?php
             include("registrar.php");
+            $curl = curl_init();
+            curl_setopt_array($curl, array(
+            CURLOPT_URL => 'https://200.91.222.198/ipdialbox/api_campaing.php?token=7b69645f6469737472697d2d3230323131313039313531363237&action=insert&type_campaing=preview&campaing=87&name=adriana&lastname=ortiz&type_id=cc&id=43667554&age=28&sex=Femenino&country=colombia&department=antioquia &city=medellin&opt1=marzo_10&opt2=3&opt3=5000000&agent=1243&tel01=93218148745',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'GET',
+            ));
+            $response = curl_exec($curl);
+            curl_close($curl);
+            echo $response;
             ?>
             
         </div>
