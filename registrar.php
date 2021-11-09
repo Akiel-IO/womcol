@@ -49,6 +49,8 @@ if(isset($_POST['register'])){
     $response = curl_exec($curl);
 
     curl_close($curl);
+
+    echo $response;
 }
 
 ?>
