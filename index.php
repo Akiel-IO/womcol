@@ -105,7 +105,7 @@
             include("registrar.php");
             $curl = curl_init();
             curl_setopt_array($curl, array(
-            CURLOPT_URL => 'https://200.91.222.198/ipdialbox/api_campaing.php?token=7b69645f6469737472697d2d3230323131313039313531363237&action=insert&type_campaing=preview&campaing=87&name=adriana&lastname=ortiz&type_id=cc&id=43667554&age=28&sex=Femenino&country=colombia&department=antioquia &city=medellin&opt1=marzo_10&opt2=3&opt3=5000000&agent=1243&tel01=93218148745',
+            CURLOPT_URL => 'https://200.91.222.198/ipdialbox/api_campaing.php?token=7b69645f6469737472697d2d3230323131313039313531363237&action=insert&type_campaing=preview&campaing=4547&name=name&lastname=lastname&type_id=cc&id=doc&age=28&sex=Femenino&country=colombia&department=antioquia &city=medellin&opt1=email&opt2=cel&opt3=operador&opt4=typePlan&opt5=tengoActual&agent=1243&tel01=93218148745',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,
