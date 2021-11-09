@@ -41,7 +41,7 @@ if(isset($_POST['register'])){
     CURLOPT_FOLLOWLOCATION => true ,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => 'POST',
-    CURLOPT_POSTFIELDS => '[ { "nombre_cliente": "$name", "apellido_cliente": "$lastname", "tipo_doc": "$typeDoc", "id_cliente": "$doc", "edad": "", "sexo": "", "pais": "", "departamento": "", "ciudad": "", "zona": "", "direccion": "", "opt1": "operador", "opt2": "$typePlan", "opt3": "tengoActual", "opt4": "", "opt5": "", "opt6": "", "opt7": "", "opt8": "", "opt9": "", "opt10": "", "opt11": "", "opt12": "", "tel1": "$cel", "tel2": "", "tel3": "", "tel4": "", "tel5": "", "tel6": "", "tel7": "", "tel8": "", "tel9": "", "tel10": "", "tel_extra": "", "email": "$email", "rellamada": "", "rellamada_tel": "", "rellamada_status": "" } ]' ,
+    CURLOPT_POSTFIELDS => '[ { "nombre_cliente": "name", "apellido_cliente": "lastname", "tipo_doc": "typeDoc", "id_cliente": "doc", "edad": "", "sexo": "", "pais": "", "departamento": "", "ciudad": "", "zona": "", "direccion": "", "opt1": "operador", "opt2": "typePlan", "opt3": "tengoActual", "opt4": "", "opt5": "", "opt6": "", "opt7": "", "opt8": "", "opt9": "", "opt10": "", "opt11": "", "opt12": "", "tel1": "cel", "tel2": "", "tel3": "", "tel4": "", "tel5": "", "tel6": "", "tel7": "", "tel8": "", "tel9": "", "tel10": "", "tel_extra": "", "email": "email", "rellamada": "", "rellamada_tel": "", "rellamada_status": "" } ]' ,
     CURLOPT_HTTPHEADER => array(
     'Content-Type: application/json'
     )));
