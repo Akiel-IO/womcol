@@ -32,7 +32,7 @@ if(isset($_POST['register'])){
     }
 }
 
-'https://wv200.91.222.198.wolkvox.com/api/v2/campaign.php?api=add_record&amp;type_campaign=predictive&amp;campaign_id=4638',
+  $url = 'https://wv200.91.222.198.wolkvox.com/api/v2/campaign.php?api=add_record&amp;type_campaign=predictive&amp;campaign_id=4638',
   CURLOPT_RETURNTRANSFER =&gt; true,
   CURLOPT_ENCODING =&gt; '',
   CURLOPT_MAXREDIRS =&gt; 10,
