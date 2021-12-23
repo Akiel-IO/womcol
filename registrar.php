@@ -44,7 +44,7 @@ if(isset($_POST['register'])){
     "customer_name": "$name",
     "customer_last_name": "",
     "id_type": "",
-    "customer_id": "",
+    "customer_id": "$doc",
     "age": "",
     "gender": "",
     "country": "",
@@ -64,13 +64,13 @@ if(isset($_POST['register'])){
     "opt10": "",
     "opt11": "",
     "opt12": "",
-    "tel1": "",
+    "tel1": "$cel",
     "tel2": "",
     "tel3": "",
     "agent_id": ""
 }',
   CURLOPT_HTTPHEADER =&gt; array(
-    'wolkvox-token: {{token}}',
+    'wolkvox-token: 7b69645f6469737472697d2d3230323131323233313030363335',
     'Content-Type: application/json'
   ),
 ));
