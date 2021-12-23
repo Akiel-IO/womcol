@@ -32,4 +32,52 @@ if(isset($_POST['register'])){
     }
 }
 
+'https://wv200.91.222.198.wolkvox.com/api/v2/campaign.php?api=add_record&amp;type_campaign=predictive&amp;campaign_id=4638',
+  CURLOPT_RETURNTRANSFER =&gt; true,
+  CURLOPT_ENCODING =&gt; '',
+  CURLOPT_MAXREDIRS =&gt; 10,
+  CURLOPT_TIMEOUT =&gt; 0,
+  CURLOPT_FOLLOWLOCATION =&gt; true,
+  CURLOPT_HTTP_VERSION =&gt; CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST =&gt; 'POST',
+  CURLOPT_POSTFIELDS =&gt;'{
+    "customer_name": "$name",
+    "customer_last_name": "",
+    "id_type": "",
+    "customer_id": "",
+    "age": "",
+    "gender": "",
+    "country": "",
+    "state": "",
+    "city": "",
+    "zone": "",
+    "address": "",
+    "opt1": "",
+    "opt2": "",
+    "opt3": "",
+    "opt4": "",
+    "opt5": "",
+    "opt6": "",
+    "opt7": "",
+    "opt8": "",
+    "opt9": "",
+    "opt10": "",
+    "opt11": "",
+    "opt12": "",
+    "tel1": "",
+    "tel2": "",
+    "tel3": "",
+    "agent_id": ""
+}',
+  CURLOPT_HTTPHEADER =&gt; array(
+    'wolkvox-token: {{token}}',
+    'Content-Type: application/json'
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
+
 ?>
